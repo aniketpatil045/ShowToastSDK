@@ -31,7 +31,6 @@
 		852909692C108DB10095D53A /* ShowToastSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowToastSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8529096E2C108DB10095D53A /* ShowToastSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowToastSDKTests.swift; sourceTree = "<group>"; };
 		852909792C108DCA0095D53A /* ShowToasts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowToasts.swift; sourceTree = "<group>"; };
-		8529097C2C108EC50095D53A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,6 @@
 				852909612C108DB10095D53A /* ShowToastSDK */,
 				8529096D2C108DB10095D53A /* ShowToastSDKTests */,
 				852909602C108DB10095D53A /* Products */,
-				8529097B2C108EC40095D53A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,14 +86,6 @@
 				8529096E2C108DB10095D53A /* ShowToastSDKTests.swift */,
 			);
 			path = ShowToastSDKTests;
-			sourceTree = "<group>";
-		};
-		8529097B2C108EC40095D53A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8529097C2C108EC50095D53A /* Accelerate.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
